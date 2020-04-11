@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../fonts/Product\ Sans\ Regular.ttf') format('ttf'),
+         url('../fonts/Product\ Sans\ Bold.ttf') format('ttf')
+         url('../fonts/Product\ Sans\ Italic.ttf') format('ttf')
+         url('../fonts/Product\ Sans\ Bold\ Italic.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Product Sans';
+}

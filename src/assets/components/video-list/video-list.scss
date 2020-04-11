@@ -1,0 +1,29 @@
+@import 'Styles/variables.scss';
+
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__video {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: $breakpoint-tablet) {
+    .video-list {
+        &__video {
+            width: 33.33%;
+        }
+    }
+}
+
+@media (min-width: $breakpoint-desktop) {
+    .video-list {
+        &__video {
+            width: 25%;
+        }
+    }
+}
+
